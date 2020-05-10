@@ -1,0 +1,14 @@
+Feature: Google test2
+
+  Scenario: Search google                   [90m# Google test_2.feature:3[0m
+    [32mGiven [0m[32mam on the google home page[0m        [90m# GoogleStepDeftn.am_on_the_google_home_page()[0m
+    [32mWhen [0m[32mI enter word to be searched[0m        [90m# GoogleStepDeftn.i_enter_word_to_be_searched()[0m
+    [32mAnd [0m[32mI click the search button[0m           [90m# GoogleStepDeftn.i_click_the_search_button()[0m
+    [32mThen [0m[32mthe search result should be return[0m [90m# GoogleStepDeftn.the_search_result_should_be_return()[0m
+Feature: Google test
+
+  Scenario: Search google                   [90m# search.feature:3[0m
+    [32mGiven [0m[32mam on the google home page[0m        [90m# GoogleStepDeftn.am_on_the_google_home_page()[0m
+    [32mWhen [0m[32mI enter word to be searched[0m        [90m# GoogleStepDeftn.i_enter_word_to_be_searched()[0m
+    [32mAnd [0m[32mI click the search button[0m           [90m# GoogleStepDeftn.i_click_the_search_button()[0m
+    [32mThen [0m[32mthe search result should be return[0m [90m# GoogleStepDeftn.the_search_result_should_be_return()[0m
