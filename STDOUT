@@ -1,14 +1,90 @@
 Feature: Google test2
 
   Scenario: Search google                   [90m# Google test_2.feature:3[0m
-    [32mGiven [0m[32mam on the google home page[0m        [90m# GoogleStepDeftn.am_on_the_google_home_page()[0m
-    [32mWhen [0m[32mI enter word to be searched[0m        [90m# GoogleStepDeftn.i_enter_word_to_be_searched()[0m
-    [32mAnd [0m[32mI click the search button[0m           [90m# GoogleStepDeftn.i_click_the_search_button()[0m
-    [32mThen [0m[32mthe search result should be return[0m [90m# GoogleStepDeftn.the_search_result_should_be_return()[0m
+    [31mGiven [0m[31mam on the google home page[0m        [90m# GoogleStepDeftn.am_on_the_google_home_page()[0m
+      [31morg.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+        (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 88 milliseconds
+      Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+      System info: host: 'DESKTOP-MULFOLU', ip: '192.168.0.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+      Driver info: driver.version: ChromeDriver
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+      	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+      	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+      	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+      	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+      	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+      	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+      	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+      	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+      	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+      	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+      	at Com.Browser.Hook.setup(Hook.java:14)
+      	at Com.StepDeftn.GoogleStepDeftn.am_on_the_google_home_page(GoogleStepDeftn.java:12)
+      	at ✽.Given am on the google home page(Google test_2.feature:4)
+      [0m
+    [36mWhen [0m[36mI enter word to be searched[0m        [90m# GoogleStepDeftn.i_enter_word_to_be_searched()[0m
+    [36mAnd [0m[36mI click the search button[0m           [90m# GoogleStepDeftn.i_click_the_search_button()[0m
+    [36mThen [0m[36mthe search result should be return[0m [90m# GoogleStepDeftn.the_search_result_should_be_return()[0m
 Feature: Google test
 
   Scenario: Search google                   [90m# search.feature:3[0m
-    [32mGiven [0m[32mam on the google home page[0m        [90m# GoogleStepDeftn.am_on_the_google_home_page()[0m
-    [32mWhen [0m[32mI enter word to be searched[0m        [90m# GoogleStepDeftn.i_enter_word_to_be_searched()[0m
-    [32mAnd [0m[32mI click the search button[0m           [90m# GoogleStepDeftn.i_click_the_search_button()[0m
-    [32mThen [0m[32mthe search result should be return[0m [90m# GoogleStepDeftn.the_search_result_should_be_return()[0m
+    [31mGiven [0m[31mam on the google home page[0m        [90m# GoogleStepDeftn.am_on_the_google_home_page()[0m
+      [31morg.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+        (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2 milliseconds
+      Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+      System info: host: 'DESKTOP-MULFOLU', ip: '192.168.0.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+      Driver info: driver.version: ChromeDriver
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+      	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+      	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+      	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+      	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+      	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+      	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+      	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+      	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+      	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+      	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+      	at Com.Browser.Hook.setup(Hook.java:14)
+      	at Com.StepDeftn.GoogleStepDeftn.am_on_the_google_home_page(GoogleStepDeftn.java:12)
+      	at ✽.Given am on the google home page(search.feature:4)
+      [0m
+    [36mWhen [0m[36mI enter word to be searched[0m        [90m# GoogleStepDeftn.i_enter_word_to_be_searched()[0m
+    [36mAnd [0m[36mI click the search button[0m           [90m# GoogleStepDeftn.i_click_the_search_button()[0m
+    [36mThen [0m[36mthe search result should be return[0m [90m# GoogleStepDeftn.the_search_result_should_be_return()[0m
